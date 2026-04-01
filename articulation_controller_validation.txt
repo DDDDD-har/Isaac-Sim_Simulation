@@ -1,0 +1,98 @@
+================================================================================
+ArticulationController 验证报告
+================================================================================
+检查时间: 2026-03-28 13:30:35
+================================================================================
+
+📊 Graph: /World/Robots/WheelLoaderURDF_full/ROS2_Control
+  🎯 ArticulationController 发现:
+     节点路径: /World/Robots/WheelLoaderURDF_full/ROS2_Control/articulation_controller
+     节点类型: isaacsim.core.nodes.IsaacArticulationController
+     robotPath: /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF
+     targetPrim: []
+     inputs:positionCommand: 已配置
+     inputs:velocityCommand: 已配置
+     inputs:effortCommand: 已配置
+
+📊 Graph: /World/Robots/ROS2_OdomAndTF
+
+================================================================================
+统计摘要
+================================================================================
+总 Graph 数量: 2
+ArticulationController 数量: 1
+
+================================================================================
+验证结果
+================================================================================
+✅ 正常: 只有一个 ArticulationController
+
+控制器详细信息:
+  - Graph: /World/Robots/WheelLoaderURDF_full/ROS2_Control
+  - 节点: /World/Robots/WheelLoaderURDF_full/ROS2_Control/articulation_controller
+  - 类型: isaacsim.core.nodes.IsaacArticulationController
+
+================================================================================
+所有 Graph 详细信息
+================================================================================
+
+📊 Graph: /World/Robots/WheelLoaderURDF_full/ROS2_Control
+  总节点数: 11
+  节点类型分布:
+    - isaacsim.core.nodes.IsaacArticulationController: 1
+    - isaacsim.core.nodes.IsaacComputeOdometry: 1
+    - isaacsim.core.nodes.IsaacReadSimulationTime: 1
+    - isaacsim.ros2.bridge.ROS2Context: 1
+    - isaacsim.ros2.bridge.ROS2PublishClock: 1
+    - isaacsim.ros2.bridge.ROS2PublishJointState: 1
+    - isaacsim.ros2.bridge.ROS2PublishOdometry: 1
+    - isaacsim.ros2.bridge.ROS2PublishTransformTree: 1
+    - isaacsim.ros2.bridge.ROS2QoSProfile: 1
+    - isaacsim.ros2.bridge.ROS2SubscribeJointState: 1
+    - omni.graph.action.OnPlaybackTick: 1
+  重要节点:
+    - isaacsim.ros2.bridge.ROS2PublishClock
+      路径: /World/Robots/WheelLoaderURDF_full/ROS2_Control/publish_clock
+    - isaacsim.ros2.bridge.ROS2PublishOdometry
+      路径: /World/Robots/WheelLoaderURDF_full/ROS2_Control/publish_odom
+    - isaacsim.ros2.bridge.ROS2PublishTransformTree
+      路径: /World/Robots/WheelLoaderURDF_full/ROS2_Control/publish_tf
+    - isaacsim.ros2.bridge.ROS2PublishJointState
+      路径: /World/Robots/WheelLoaderURDF_full/ROS2_Control/publish_joint_state
+    - isaacsim.core.nodes.IsaacArticulationController
+      路径: /World/Robots/WheelLoaderURDF_full/ROS2_Control/articulation_controller
+    - isaacsim.ros2.bridge.ROS2SubscribeJointState
+      路径: /World/Robots/WheelLoaderURDF_full/ROS2_Control/subscribe_joint_cmd
+    - isaacsim.ros2.bridge.ROS2QoSProfile
+      路径: /World/Robots/WheelLoaderURDF_full/ROS2_Control/ros2_qos
+    - isaacsim.ros2.bridge.ROS2Context
+      路径: /World/Robots/WheelLoaderURDF_full/ROS2_Control/ros2_context
+    - omni.graph.action.OnPlaybackTick
+      路径: /World/Robots/WheelLoaderURDF_full/ROS2_Control/on_playback_tick
+
+📊 Graph: /World/Robots/ROS2_OdomAndTF
+  总节点数: 8
+  节点类型分布:
+    - isaacsim.core.nodes.IsaacComputeOdometry: 1
+    - isaacsim.core.nodes.IsaacReadSimulationTime: 1
+    - isaacsim.ros2.bridge.ROS2Context: 1
+    - isaacsim.ros2.bridge.ROS2PublishOdometry: 1
+    - isaacsim.ros2.bridge.ROS2PublishTransformTree: 3
+    - omni.graph.action.OnPlaybackTick: 1
+  重要节点:
+    - isaacsim.ros2.bridge.ROS2PublishOdometry
+      路径: /World/Robots/ROS2_OdomAndTF/ros2_publish_odometry
+    - isaacsim.ros2.bridge.ROS2PublishTransformTree
+      路径: /World/Robots/ROS2_OdomAndTF/ros2_publish_transform_tree_to_map_wheelloader
+    - isaacsim.ros2.bridge.ROS2PublishTransformTree
+      路径: /World/Robots/ROS2_OdomAndTF/ros2_publish_transform_tree
+    - isaacsim.ros2.bridge.ROS2Context
+      路径: /World/Robots/ROS2_OdomAndTF/ros2_context
+    - isaacsim.ros2.bridge.ROS2PublishTransformTree
+      路径: /World/Robots/ROS2_OdomAndTF/ros2_publish_transform_tree_to_map_truck
+    - omni.graph.action.OnPlaybackTick
+      路径: /World/Robots/ROS2_OdomAndTF/on_playback_tick
+
+================================================================================
+验证完成时间: 2026-03-28 13:30:35
+================================================================================

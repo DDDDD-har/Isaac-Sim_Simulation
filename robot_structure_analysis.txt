@@ -1,0 +1,391 @@
+================================================================================
+机器人结构探测报告
+================================================================================
+Stage: file:/home/auto/isaacsim4.5/issacsim_excavator/world/CJLAZ_v2_20250909.usda
+探测路径: /World/Robots/WheelLoaderURDF_full
+
+✅ 找到机器人根节点
+
+机器人结构树:
+--------------------------------------------------
+WheelLoaderURDF_full (Xform) [WHEEL]
+  WheelLoaderURDF (Xform) [WHEEL]
+    base_link (Xform) [BASE_LINK]
+      Articulation_Joint_Back (Xform)
+        ND_____Sketch_001 (Mesh)
+        chassis_base (Xform)
+          Plane_029 (Mesh)
+          Engine_ (Xform)
+            ... (深度限制)
+            ... (深度限制)
+            ... (深度限制)
+            ... (深度限制)
+          guard (Xform)
+            ... (深度限制)
+          steer_mount (Xform)
+            ... (深度限制)
+            ... (深度限制)
+          operator_cabin (Xform)
+            ... (深度限制)
+            ... (深度限制)
+            ... (深度限制)
+            ... (深度限制)
+            ... (深度限制)
+            ... (深度限制)
+          Access_Platform (Xform)
+            ... (深度限制)
+          cab_support_bracket (Xform)
+            ... (深度限制)
+            ... (深度限制)
+            ... (深度限制)
+          Articulation_Joint_Back_001 (Xform)
+            ... (深度限制)
+            ... (深度限制)
+          cab_support_frame (Xform)
+            ... (深度限制)
+            ... (深度限制)
+            ... (深度限制)
+          Ladder_Frame (Xform)
+            ... (深度限制)
+            ... (深度限制)
+            ... (深度限制)
+            ... (深度限制)
+            ... (深度限制)
+            ... (深度限制)
+          rear_axle (Xform)
+            ... (深度限制)
+      cylinder_rod_cap (Xform)
+        Plane_046 (Mesh)
+        cylinder_rod_001 (Xform)
+          cylinder_rod_001 (Mesh)
+      Camera (Camera)
+        ROS2_Camera (OmniGraph)
+          isaac_run_one_simulation_frame (OmniGraphNode)
+          isaac_create_render_product (OmniGraphNode)
+          ros2_camera_helper (OmniGraphNode)
+          ros2_context (OmniGraphNode)
+          on_playback_tick (OmniGraphNode)
+          ros2_qos_profile (OmniGraphNode)
+        OmniverseKitViewportCameraMesh (Xform)
+          CameraModel (Mesh)
+      Airy_rear (Camera)
+        ROS2_Airy_rear (OmniGraph)
+          ros2_context (OmniGraphNode)
+          isaac_create_render_product (OmniGraphNode)
+          ros2_rtx_lidar_helper (OmniGraphNode)
+          isaac_run_one_simulation_frame (OmniGraphNode)
+          on_playback_tick (OmniGraphNode)
+        OmniverseKitViewportCameraMesh (Xform)
+          CameraModel (Mesh)
+      Airy_front (Camera)
+        ROS2_Airy_front (OmniGraph)
+          ros2_context (OmniGraphNode)
+          isaac_create_render_product (OmniGraphNode)
+          ros2_rtx_lidar_helper (OmniGraphNode)
+          isaac_run_one_simulation_frame (OmniGraphNode)
+          on_playback_tick (OmniGraphNode)
+        OmniverseKitViewportCameraMesh (Xform)
+          CameraModel (Mesh)
+    FRwheel (Xform) [WHEEL]
+      Torus_003 (Xform)
+        Torus_007 (Mesh)
+        Tread_002 (Xform)
+          ND_____Geo_Lift_008 (Mesh)
+        _Rim_002 (Xform)
+          Plane_083 (Mesh)
+          Hub_002 (Xform)
+            ... (深度限制)
+          hub_bolt_002 (Xform)
+            ... (深度限制)
+    RLwheel (Xform) [WHEEL]
+      Torus_002 (Xform)
+        Torus_006 (Mesh)
+        Tread_001 (Xform)
+          ND_____Geo_Lift_007 (Mesh)
+        _Rim_001 (Xform)
+          Plane_080 (Mesh)
+          Hub_001 (Xform)
+            ... (深度限制)
+          hub_bolt_001 (Xform)
+            ... (深度限制)
+    Bucket (Xform)
+      Lift_Arm_Bracket (Xform) [ARM]
+        Plane_006 (Mesh)
+        Bucket_Body (Xform)
+          Cube_001 (Mesh)
+          Tooth_Adapter_cutter (Xform)
+            ... (深度限制)
+            ... (深度限制)
+        arm_Lift_Arm_Bracket_Pin_001 (Xform) [ARM]
+          Lift_Arm_Bracket_Pin_001 (Mesh) [ARM]
+      Bucket_front_boom_pivot_pin (Xform) [ARM]
+        Plane_010 (Mesh)
+        linkage_Hydraulic_Support_Bracket_pin_001 (Xform)
+          Hydraulic_Support_Bracket_pin_001 (Mesh)
+    FLwheel (Xform) [WHEEL]
+      Torus_004 (Xform)
+        Torus_008 (Mesh)
+        Tread_003 (Xform)
+          ND_____Geo_Lift_009 (Mesh)
+        _Rim_003 (Xform)
+          Plane_086 (Mesh)
+          Hub_003 (Xform)
+            ... (深度限制)
+          hub_bolt_003 (Xform)
+            ... (深度限制)
+    RRwheel (Xform) [WHEEL]
+      Torus_001 (Xform)
+        Torus_001 (Mesh)
+        Tread (Xform)
+          ND_____Geo_Lift_001 (Mesh)
+        _Rim (Xform)
+          Plane_034 (Mesh)
+          Hub (Xform)
+            ... (深度限制)
+          hub_bolt (Xform)
+            ... (深度限制)
+    Arm (Xform) [ARM]
+      rocker_Hydraulic_Strut_Frame (Xform)
+        ND_____Sketch (Mesh)
+        rocker_Hydraulic_Support_Bracket_pin_2_001 (Xform)
+          Hydraulic_Support_Bracket_pin_2_001 (Mesh)
+        bucket_Hydraulic_Strut_Frame_Pin_003 (Xform)
+          Hydraulic_Strut_Frame_Pin_003 (Mesh)
+      bucket_CLEVIS (Xform)
+        Plane_017 (Mesh)
+        bucket_gland_sleeve (Xform)
+          Plane_016 (Mesh)
+          bucket_cylinder_end_cap (Xform)
+            ... (深度限制)
+      Boom (Xform) [ARM]
+        Plane_005 (Mesh)
+        Hydraulic_base (Xform)
+          Plane_012 (Mesh)
+          Hydraulic_Support_Bracket_L (Xform)
+            ... (深度限制)
+            ... (深度限制)
+        boom_piston_rod_cap_pin_001 (Xform) [ARM]
+          piston_rod_cap_pin_001 (Mesh)
+      linkage_Hydraulic_Support_Bracket_M (Xform)
+        Plane_013 (Mesh)
+      Lift_Cylinder (Xform)
+        Piston_Rod_004 (Mesh)
+        _boom_piston_rod_cap (Xform) [ARM]
+          Plane_028 (Mesh)
+      Bucket_Cylinder (Xform)
+        Piston_Rod_001 (Mesh)
+        bucket_Piston_Rod_Cap (Xform)
+          Plane_018 (Mesh)
+    front_body (Xform)
+      gland_sleeve_001 (Xform)
+        Plane_024 (Mesh)
+        boom_CLEVIS_001 (Xform) [ARM]
+          Plane_025 (Mesh)
+        cylinder_end_cap_001 (Xform)
+          Plane_026 (Mesh)
+      Articulation_Joint_Front (Xform)
+        Plane_007 (Mesh)
+        front_axle_to_cabin_rear (Xform)
+          Plane_004 (Mesh)
+          boom_mount_plate_front_body (Xform) [ARM]
+            ... (深度限制)
+            ... (深度限制)
+            ... (深度限制)
+          steer_cylinder_body_001 (Xform)
+            ... (深度限制)
+          boom_mount_plate_front_inner (Xform) [ARM]
+            ... (深度限制)
+            ... (深度限制)
+          _Articulation_Joint_Front_001 (Xform)
+            ... (深度限制)
+          axle_housing_front (Xform)
+            ... (深度限制)
+            ... (深度限制)
+            ... (深度限制)
+          cylinder_end_base (Xform)
+            ... (深度限制)
+            ... (深度限制)
+        Articulation_Pin_002 (Xform)
+          Articulation_Pin_002 (Mesh)
+    wheel_joint (Scope) [WHEEL]
+      FRwheel_revolute (PhysicsRevoluteJoint) [JOINT] axis=Y
+      RLwheel_revolute (PhysicsRevoluteJoint) [JOINT] axis=Y
+      FLwheel_revolute (PhysicsRevoluteJoint) [JOINT] axis=Y
+      RRwheel_revolute (PhysicsRevoluteJoint) [JOINT] axis=Y
+    bucket_joint (Scope)
+      rocker_link_revolute (PhysicsRevoluteJoint) [JOINT] axis=Z
+      rocker_bucket_revolute (PhysicsRevoluteJoint) [JOINT] axis=Z
+      bucket_cylinder_prismatic (PhysicsPrismaticJoint) [JOINT] axis=Z
+      bucket_pivot_revolute (PhysicsRevoluteJoint) [JOINT] axis=Z
+      rocker_joint (Scope)
+        rocker_revolute (PhysicsRevoluteJoint) [JOINT] axis=Y
+        rocker_linkage_revolute (PhysicsRevoluteJoint) [JOINT] axis=Z
+        rocker_cylinder_revolute (PhysicsRevoluteJoint) [JOINT] axis=Z
+    boom_joint (Scope) [ARM]
+      boom_cylinder_revolute (PhysicsRevoluteJoint) [JOINT] axis=Z
+      boom_pivot_revolute (PhysicsRevoluteJoint) [JOINT] axis=Z
+      boom_cylinder_prismatic (PhysicsPrismaticJoint) [JOINT] axis=Z
+      boom_link_revolute (PhysicsRevoluteJoint) [JOINT] axis=Z
+    chassis_joint (Scope)
+      chassis_body_revolute (PhysicsRevoluteJoint) [JOINT] axis=Z
+  _materials (Scope)
+    Orange_painted_metal (Material)
+      Principled_BSDF (Shader)
+      Image_Texture_002 (Shader)
+      Mapping (Shader)
+      uvmap (Shader)
+      Image_Texture_004 (Shader)
+      Image_Texture_005 (Shader)
+      Image_Texture_003 (Shader)
+      Image_Texture (Shader)
+    metal (Material)
+      Principled_BSDF (Shader)
+      Image_Texture (Shader)
+      Mapping (Shader)
+      uvmap (Shader)
+      Image_Texture_001 (Shader)
+      Image_Texture_002 (Shader)
+      Image_Texture_003 (Shader)
+    Procedural_Rubber (Material)
+      Principled_BSDF (Shader)
+    Steel_Blued (Material)
+      Shader (Shader)
+    PhysicsMaterial (Material)
+    Tinted_Glass_R75 (Material)
+      Shader (Shader)
+  env_light (DomeLight)
+  ROS2_Control (OmniGraph)
+    on_playback_tick (OmniGraphNode)
+    ros2_context (OmniGraphNode)
+    ros2_qos (OmniGraphNode)
+    read_sim_time (OmniGraphNode)
+    subscribe_joint_cmd (OmniGraphNode)
+    articulation_controller (OmniGraphNode)
+    publish_joint_state (OmniGraphNode)
+    publish_tf (OmniGraphNode)
+    compute_odom (OmniGraphNode)
+    publish_odom (OmniGraphNode)
+    publish_clock (OmniGraphNode)
+
+================================================================================
+重要路径摘要
+================================================================================
+
+关节列表:
+  1. /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/wheel_joint/FRwheel_revolute
+  2. /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/wheel_joint/RLwheel_revolute
+  3. /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/wheel_joint/FLwheel_revolute
+  4. /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/wheel_joint/RRwheel_revolute
+  5. /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/bucket_joint/rocker_link_revolute
+  6. /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/bucket_joint/rocker_bucket_revolute
+  7. /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/bucket_joint/bucket_cylinder_prismatic
+  8. /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/bucket_joint/bucket_pivot_revolute
+  9. /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/bucket_joint/rocker_joint/rocker_revolute
+  10. /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/bucket_joint/rocker_joint/rocker_linkage_revolute
+  11. /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/bucket_joint/rocker_joint/rocker_cylinder_revolute
+  12. /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/boom_joint/boom_cylinder_revolute
+  13. /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/boom_joint/boom_pivot_revolute
+  14. /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/boom_joint/boom_cylinder_prismatic
+  15. /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/boom_joint/boom_link_revolute
+  16. /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/chassis_joint/chassis_body_revolute
+
+base_link 路径:
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/base_link
+
+车轮路径:
+  /World/Robots/WheelLoaderURDF_full
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/FRwheel
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/RLwheel
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/FLwheel
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/RRwheel
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/wheel_joint
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/wheel_joint/FRwheel_revolute
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/wheel_joint/RLwheel_revolute
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/wheel_joint/FLwheel_revolute
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/wheel_joint/RRwheel_revolute
+
+机械臂结构:
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/base_link
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Bucket
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Bucket/Lift_Arm_Bracket
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Bucket/Lift_Arm_Bracket/Bucket_Body
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Bucket/Lift_Arm_Bracket/Bucket_Body/Tooth_Adapter_cutter/_Bucket_Teeth
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Bucket/Lift_Arm_Bracket/arm_Lift_Arm_Bracket_Pin_001
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Bucket/Lift_Arm_Bracket/arm_Lift_Arm_Bracket_Pin_001/Lift_Arm_Bracket_Pin_001
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Bucket/Bucket_front_boom_pivot_pin
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Bucket/Bucket_front_boom_pivot_pin/linkage_Hydraulic_Support_Bracket_pin_001
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm/rocker_Hydraulic_Strut_Frame/bucket_Hydraulic_Strut_Frame_Pin_003
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm/bucket_CLEVIS
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm/bucket_CLEVIS/bucket_gland_sleeve
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm/bucket_CLEVIS/bucket_gland_sleeve/bucket_cylinder_end_cap
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm/Boom
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm/Boom/boom_piston_rod_cap_pin_001
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm/linkage_Hydraulic_Support_Bracket_M
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm/Lift_Cylinder/_boom_piston_rod_cap
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm/Bucket_Cylinder
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm/Bucket_Cylinder/bucket_Piston_Rod_Cap
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/front_body/gland_sleeve_001/boom_CLEVIS_001
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/front_body/Articulation_Joint_Front/front_axle_to_cabin_rear/boom_mount_plate_front_body
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/front_body/Articulation_Joint_Front/front_axle_to_cabin_rear/boom_mount_plate_front_body/arm_boom_pivot_pin_001
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/front_body/Articulation_Joint_Front/front_axle_to_cabin_rear/boom_mount_plate_front_body/arm_boom_pivot_pin_001/boom_pivot_pin_001
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/front_body/Articulation_Joint_Front/front_axle_to_cabin_rear/boom_mount_plate_front_inner
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/front_body/Articulation_Joint_Front/front_axle_to_cabin_rear/boom_mount_plate_front_inner/boom_Piston_Rod_Pin_Cutter_001
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/front_body/Articulation_Joint_Front/front_axle_to_cabin_rear/boom_mount_plate_front_inner/boom_Piston_Rod_Pin_Cutter_001/boom_Piston_Rod_Pin_Cutter_003
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/front_body/Articulation_Joint_Front/front_axle_to_cabin_rear/cylinder_end_base/bucket_Piston_Rod_Pin_001
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/bucket_joint
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/bucket_joint/rocker_link_revolute
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/bucket_joint/rocker_bucket_revolute
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/bucket_joint/bucket_cylinder_prismatic
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/bucket_joint/bucket_pivot_revolute
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/bucket_joint/rocker_joint/rocker_linkage_revolute
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/boom_joint
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/boom_joint/boom_cylinder_revolute
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/boom_joint/boom_pivot_revolute
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/boom_joint/boom_cylinder_prismatic
+  /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/boom_joint/boom_link_revolute
+
+================================================================================
+建议的脚本配置
+================================================================================
+
+ART_PATH = "/World/Robots/WheelLoaderURDF_full"
+BASE_LINK_PATH = "/World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/base_link"
+
+建议的 publish_tf.inputs:targetPrims 列表:
+[
+    Sdf.Path("/World/Robots/WheelLoaderURDF_full"),
+    Sdf.Path("/World/Robots/WheelLoaderURDF_full/WheelLoaderURDF"),
+    Sdf.Path("/World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm"),
+    Sdf.Path("/World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm/Boom"),
+    Sdf.Path("/World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm/Boom/boom_piston_rod_cap_pin_001"),
+    Sdf.Path("/World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm/Bucket_Cylinder"),
+    Sdf.Path("/World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm/Bucket_Cylinder/bucket_Piston_Rod_Cap"),
+    Sdf.Path("/World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm/Lift_Cylinder/_boom_piston_rod_cap"),
+    Sdf.Path("/World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm/bucket_CLEVIS"),
+    Sdf.Path("/World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm/bucket_CLEVIS/bucket_gland_sleeve"),
+    Sdf.Path("/World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm/bucket_CLEVIS/bucket_gland_sleeve/bucket_cylinder_end_cap"),
+    Sdf.Path("/World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Arm/rocker_Hydraulic_Strut_Frame/bucket_Hydraulic_Strut_Frame_Pin_003"),
+    Sdf.Path("/World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Bucket"),
+    Sdf.Path("/World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Bucket/Bucket_front_boom_pivot_pin"),
+    Sdf.Path("/World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/Bucket/Lift_Arm_Bracket"),
+    # ... 还有 40 个节点
+]
+
+注意: 请根据实际需求选择需要发布的 TF 变换
+建议先在 Action Graph 中验证节点是否存在
+
+================================================================================
+ROS2 节点检查
+================================================================================
+请在 Action Graph 中手动检查以下节点是否可用:
+  - isaacsim.ros2.bridge.ROS2PublishTransformTree
+  - isaacsim.ros2.bridge.ROS2PublishJointState
+  - isaacsim.ros2.bridge.ROS2SubscribeJointState
+  - isaacsim.core.nodes.IsaacReadSimulationTime
+  - isaacsim.core.nodes.IsaacArticulationController
+
+================================================================================
+探测时间: 2026-03-28 12:33:58
+================================================================================

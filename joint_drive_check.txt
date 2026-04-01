@@ -1,0 +1,153 @@
+============================================================
+关节驱动配置检查报告
+============================================================
+检查时间: 2026-03-28 12:54:06
+Stage: file:/home/auto/isaacsim4.5/issacsim_excavator/world/CJLAZ_v2_20250909.usda
+============================================================
+
+FRwheel_revolute (PhysicsRevoluteJoint):
+  路径: /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/wheel_joint/FRwheel_revolute
+  stiffness: 0.0
+  damping: 1000.0
+  maxForce: inf
+  → 驱动模式: 速度控制 (damping=1000.0)
+  所有驱动相关属性:
+    drive:angular:physics:damping = 1000.0
+    drive:angular:physics:maxForce = inf
+    drive:angular:physics:stiffness = 0.0
+    drive:angular:physics:targetPosition = 0.0
+    drive:angular:physics:targetVelocity = 0.0
+    drive:angular:physics:type = force
+
+FLwheel_revolute (PhysicsRevoluteJoint):
+  路径: /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/wheel_joint/FLwheel_revolute
+  stiffness: 0.0
+  damping: 1000.0
+  maxForce: inf
+  → 驱动模式: 速度控制 (damping=1000.0)
+  所有驱动相关属性:
+    drive:angular:physics:damping = 1000.0
+    drive:angular:physics:maxForce = inf
+    drive:angular:physics:stiffness = 0.0
+    drive:angular:physics:targetPosition = 0.0
+    drive:angular:physics:targetVelocity = 0.0
+    drive:angular:physics:type = force
+
+RRwheel_revolute (PhysicsRevoluteJoint):
+  路径: /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/wheel_joint/RRwheel_revolute
+  stiffness: 0.0
+  damping: 1000.0
+  maxForce: inf
+  → 驱动模式: 速度控制 (damping=1000.0)
+  所有驱动相关属性:
+    drive:angular:physics:damping = 1000.0
+    drive:angular:physics:maxForce = inf
+    drive:angular:physics:stiffness = 0.0
+    drive:angular:physics:targetPosition = 0.0
+    drive:angular:physics:targetVelocity = 0.0
+    drive:angular:physics:type = force
+
+RLwheel_revolute (PhysicsRevoluteJoint):
+  路径: /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/wheel_joint/RLwheel_revolute
+  stiffness: 0.0
+  damping: 1000.0
+  maxForce: inf
+  → 驱动模式: 速度控制 (damping=1000.0)
+  所有驱动相关属性:
+    drive:angular:physics:damping = 1000.0
+    drive:angular:physics:maxForce = inf
+    drive:angular:physics:stiffness = 0.0
+    drive:angular:physics:targetPosition = 0.0
+    drive:angular:physics:targetVelocity = 0.0
+    drive:angular:physics:type = force
+
+chassis_body_revolute (PhysicsRevoluteJoint):
+  路径: /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/chassis_joint/chassis_body_revolute
+  stiffness: 99999997952.0
+  damping: 10000000000.0
+  maxForce: inf
+  → 驱动模式: 位置控制 (stiffness=99999997952.0)
+  所有驱动相关属性:
+    drive:angular:physics:damping = 10000000000.0
+    drive:angular:physics:maxForce = inf
+    drive:angular:physics:stiffness = 99999997952.0
+    drive:angular:physics:targetPosition = 0.0
+    drive:angular:physics:targetVelocity = 0.0
+    drive:angular:physics:type = force
+
+boom_pivot_revolute (PhysicsRevoluteJoint):
+  路径: /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/boom_joint/boom_pivot_revolute
+  stiffness: 100000.0
+  damping: 10000.0
+  maxForce: 10000000000.0
+  → 驱动模式: 位置控制 (stiffness=100000.0)
+  所有驱动相关属性:
+    drive:angular:physics:damping = 10000.0
+    drive:angular:physics:maxForce = 10000000000.0
+    drive:angular:physics:stiffness = 100000.0
+    drive:angular:physics:targetPosition = 0.0
+    drive:angular:physics:targetVelocity = 0.0
+    drive:angular:physics:type = force
+
+bucket_pivot_revolute (PhysicsRevoluteJoint):
+  路径: /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/bucket_joint/bucket_pivot_revolute
+  stiffness: 100000.0
+  damping: 10000.0
+  maxForce: 10000000000.0
+  → 驱动模式: 位置控制 (stiffness=100000.0)
+  所有驱动相关属性:
+    drive:angular:physics:damping = 10000.0
+    drive:angular:physics:maxForce = 10000000000.0
+    drive:angular:physics:stiffness = 100000.0
+    drive:angular:physics:targetPosition = 0.0
+    drive:angular:physics:targetVelocity = 0.0
+    drive:angular:physics:type = force
+
+============================================================
+统计摘要
+============================================================
+总关节数: 7
+有效关节数: 7
+无效关节数: 0
+
+有驱动配置的关节 (7):
+  - FRwheel_revolute: 速度控制 (D=1000.0)
+  - FLwheel_revolute: 速度控制 (D=1000.0)
+  - RRwheel_revolute: 速度控制 (D=1000.0)
+  - RLwheel_revolute: 速度控制 (D=1000.0)
+  - chassis_body_revolute: 位置控制 (K=99999997952.0, D=10000000000.0)
+  - boom_pivot_revolute: 位置控制 (K=100000.0, D=10000.0)
+  - bucket_pivot_revolute: 位置控制 (K=100000.0, D=10000.0)
+
+============================================================
+ActionGraph 配置建议
+============================================================
+
+关节名称列表 (用于 ROS2SubscribeJointState):
+jointNames = [
+    "FRwheel_revolute",
+    "FLwheel_revolute",
+    "RRwheel_revolute",
+    "RLwheel_revolute",
+    "chassis_body_revolute",
+    "boom_pivot_revolute",
+    "bucket_pivot_revolute",
+]
+
+============================================================
+✅ 所有关节都已配置驱动，可以正常控制。
+
+============================================================
+关节路径列表 (供参考)
+============================================================
+FRwheel_revolute: /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/wheel_joint/FRwheel_revolute
+FLwheel_revolute: /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/wheel_joint/FLwheel_revolute
+RRwheel_revolute: /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/wheel_joint/RRwheel_revolute
+RLwheel_revolute: /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/wheel_joint/RLwheel_revolute
+chassis_body_revolute: /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/chassis_joint/chassis_body_revolute
+boom_pivot_revolute: /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/boom_joint/boom_pivot_revolute
+bucket_pivot_revolute: /World/Robots/WheelLoaderURDF_full/WheelLoaderURDF/bucket_joint/bucket_pivot_revolute
+
+============================================================
+报告生成完成: 2026-03-28 12:54:06
+============================================================

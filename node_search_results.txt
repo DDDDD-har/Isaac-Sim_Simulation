@@ -1,0 +1,84 @@
+=== Isaac Sim 节点搜索结果 ===
+总计节点数: 652
+
+=== ROS2 相关节点 ===
+isaacsim.ros2.bridge.OgnROS2ServiceClient
+isaacsim.ros2.bridge.OgnROS2ServiceServerRequest
+isaacsim.ros2.bridge.OgnROS2ServiceServerResponse
+isaacsim.ros2.bridge.ROS2CameraHelper
+isaacsim.ros2.bridge.ROS2CameraInfoHelper
+isaacsim.ros2.bridge.ROS2Context
+isaacsim.ros2.bridge.ROS2PublishAckermannDrive
+isaacsim.ros2.bridge.ROS2PublishBbox2D
+isaacsim.ros2.bridge.ROS2PublishBbox3D
+isaacsim.ros2.bridge.ROS2PublishCameraInfo
+isaacsim.ros2.bridge.ROS2PublishClock
+isaacsim.ros2.bridge.ROS2PublishImage
+isaacsim.ros2.bridge.ROS2PublishImu
+isaacsim.ros2.bridge.ROS2PublishJointState
+isaacsim.ros2.bridge.ROS2PublishLaserScan
+isaacsim.ros2.bridge.ROS2PublishOdometry
+isaacsim.ros2.bridge.ROS2PublishPointCloud
+isaacsim.ros2.bridge.ROS2PublishRawTransformTree
+isaacsim.ros2.bridge.ROS2PublishSemanticLabels
+isaacsim.ros2.bridge.ROS2PublishTransformTree
+isaacsim.ros2.bridge.ROS2Publisher
+isaacsim.ros2.bridge.ROS2QoSProfile
+isaacsim.ros2.bridge.ROS2RtxLidarHelper
+isaacsim.ros2.bridge.ROS2ServicePrim
+isaacsim.ros2.bridge.ROS2SubscribeAckermannDrive
+isaacsim.ros2.bridge.ROS2SubscribeClock
+isaacsim.ros2.bridge.ROS2SubscribeJointState
+isaacsim.ros2.bridge.ROS2SubscribeTransformTree
+isaacsim.ros2.bridge.ROS2SubscribeTwist
+isaacsim.ros2.bridge.ROS2Subscriber
+
+找到 30 个 ROS2 节点
+
+=== Isaac Core 节点 (articulation/odom/time) ===
+isaacsim.core.nodes.IsaacArticulationController
+isaacsim.core.nodes.IsaacArticulationState
+isaacsim.core.nodes.IsaacComputeOdometry
+isaacsim.core.nodes.IsaacReadSimulationTime
+isaacsim.core.nodes.IsaacReadSystemTime
+isaacsim.core.nodes.IsaacReadTimes
+isaacsim.core.nodes.IsaacRealTimeFactor
+isaacsim.core.nodes.IsaacTimeSplitter
+isaacsim.replicator.domain_randomization.OgnWritePhysicsArticulationView
+isaacsim.ros2.bridge.ROS2PublishOdometry
+
+找到 10 个 Isaac Core 相关节点
+
+=== 里程计和动力学相关节点 (odom/kinematics/velocity) ===
+isaacsim.core.nodes.IsaacComputeOdometry
+isaacsim.core.nodes.IsaacReadWorldPose
+isaacsim.replicator.writers.Pose
+isaacsim.ros2.bridge.ROS2PublishOdometry
+isaacsim.ros2.bridge.ROS2PublishRawTransformTree
+isaacsim.ros2.bridge.ROS2PublishTransformTree
+isaacsim.ros2.bridge.ROS2SubscribeTransformTree
+omni.anim.DecomposeMatrix
+omni.graph.TransformBundle
+omni.graph.nodes.GetPrimLocalToWorldTransform
+omni.graph.nodes.MakeTransform
+omni.graph.nodes.MakeTransformLookAt
+omni.graph.nodes.MoveToTransform
+omni.graph.nodes.TransformVector
+omni.graph.nodes.Transpose
+omni.replicator.core.OgnPerAxisPose
+
+找到 16 个里程计/动力学相关节点
+
+=== Compute 相关节点 ===
+isaacsim.core.nodes.IsaacComputeOdometry
+isaacsim.sensors.rtx.IsaacComputeRTXLidarFlatScan
+isaacsim.sensors.rtx.IsaacComputeRTXLidarPointCloud
+isaacsim.sensors.rtx.IsaacComputeRTXRadarPointCloud
+omni.physx.graph.ImmediateComputeBoundsOverlaps
+omni.physx.graph.ImmediateComputeGeometryBounds
+omni.physx.graph.ImmediateComputeGeometryOverlaps
+omni.physx.graph.ImmediateComputeGeometryPenetrations
+omni.physx.graph.ImmediateComputeGeometryRaycastHits
+omni.physx.graph.ImmediateComputeMeshIntersectingFaces
+
+找到 10 个 Compute 相关节点
