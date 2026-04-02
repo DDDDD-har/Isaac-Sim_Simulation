@@ -19,7 +19,7 @@ def get_key():
 
 class WheelLoaderFinalTeleop(Node):
     def __init__(self):
-        super().__init__('loader_v7')
+        super().__init__('loader_v1')
         self.names = [
             'FRwheel_revolute', 'FLwheel_revolute', 'boom_cylinder_revolute',
             'boom_pivot_revolute', 'chassis_body_revolute', 'boom_cylinder_prismatic',
@@ -36,6 +36,16 @@ class WheelLoaderFinalTeleop(Node):
         self.timer = self.create_timer(0.02, self.publish)
         self.running = True
         threading.Thread(target=self.key_loop, daemon=True).start()
+
+        print("\n" + "="*50)
+        print("  WheelLoader 控制器 V1 (单消息分流)")
+        print("="*50)
+        print("  W / S : 前进 / 后退")
+        print("  A / D : 左转 / 右转")
+        print("  R / F : 动臂 抬升 / 下降")
+        print("  T / G : 铲斗 收起 / 翻开")
+        print("  Q     : 退出 (程序会立即停止)")
+        print("="*50 + "\n")
 
     def key_loop(self):
         while self.running:
@@ -67,8 +77,6 @@ class WheelLoaderFinalTeleop(Node):
         msg.position[3] = float(self.boom_pos)
         msg.position[4] = float(self.steer_pos)
         msg.position[6] = float(self.bucket_pos)
-        # 如果铲斗依然不动，尝试下面这行替代上面那行：
-        # msg.position[12] = float(self.bucket_pos) 
         
         self.pub.publish(msg)
 
