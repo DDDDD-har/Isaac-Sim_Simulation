@@ -1,0 +1,52 @@
+{
+  "_comment2": "parameters obtained from https://bucket-download.slamtec.com/0a0d6c01df6ac91016de7e1f558e262474a4be43/SLAMTEC_rplidar_datasheet_S2E_v1.3_en.pdf",
+  "class": "sensor",
+  "type": "lidar",
+  "name": "Airy_downsample",
+  "driveWorksId": "GENERIC",
+  "profile":
+  {
+      "scanType": "rotary",
+      "intensityProcessing": "normalization",
+      "rotationDirection": "CW",
+      "rayType": "IDEALIZED",
+      "nearRangeM": 0.1,
+      "minDistBetweenEchos": 0.05,
+      "farRangeM": 50.0,
+
+      "rangeResolutionM": 0.013,
+
+      "rangeAccuracyM": 0.03,
+
+      "avgPowerW": 0.004,
+      "minReflectance": 0.1,
+      "minReflectanceRange": 10.0,
+      "wavelengthNm": 905.0,
+      "pulseTimeNs": 5,
+
+      "azimuthErrorMean": 0.0,
+      "azimuthErrorStd": 0.0,
+      "elevationErrorMean": 0.0,
+      "elevationErrorStd": 0.0,
+
+      "maxReturns": 1,
+
+      "scanRateBaseHz": 10.0,
+
+      "reportRateBaseHz": 3600,
+
+      "numberOfEmitters": 30, "_comment1": "sampling rate is 10Hz. Each scan has 360 * 30 points",
+
+      "emitterStateCount": 1,
+      "emitterStates": [
+      {
+        "azimuthDeg": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "elevationDeg": [0,3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51,54,57,60,63,66,69,72,75,78,81,84,87,90],
+        "fireTimeNs": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      }
+      ],
+
+      "intensityMappingType": "LINEAR"
+  }
+}
+
